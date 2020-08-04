@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/03/23 21:08:36.000.832,=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.pas</Transaction>
+    <Transaction>2020/07/14 16:34:11.000.279,=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.pas</Transaction>
+    <Transaction>2020/07/14 17:01:49.000.000,=D:\Codigo\XE_10_Projects\delphiProjects\Unit2.pas</Transaction>
+    <Transaction>2020/07/14 17:02:25.000.389,=D:\Codigo\XE_10_Projects\delphiProjects\Unit3.pas</Transaction>
+    <Transaction>2020/07/14 17:03:05.000.900,D:\Codigo\XE_10_Projects\delphiProjects\lerJsonToExcel\Main.fmx=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.fmx</Transaction>
+    <Transaction>2020/07/14 17:03:05.000.900,D:\Codigo\XE_10_Projects\delphiProjects\lerJsonToExcel\Main.pas=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.pas</Transaction>
+    <Transaction>2020/07/14 17:03:15.000.332,D:\Codigo\XE_10_Projects\delphiProjects\lerJsonToExcel\NeoEcommerceService.Model.Connections.FireDac.DataSet.pas=D:\Codigo\XE_10_Projects\delphiProjects\Unit3.pas</Transaction>
+    <Transaction>2020/07/14 17:03:20.000.559,D:\Codigo\XE_10_Projects\delphiProjects\lerJsonToExcel\NeoEcommerceService.Model.Connections.Factory.DataSet.pas=D:\Codigo\XE_10_Projects\delphiProjects\Unit2.pas</Transaction>
+    <Transaction>2020/07/14 17:03:58.000.906,=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.pas</Transaction>
+    <Transaction>2020/07/14 17:04:02.000.479,D:\Codigo\XE_10_Projects\delphiProjects\lerJsonToExcel\NeoEcommerceService.Model.Connections.ClientDataSet.pas=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.pas</Transaction>
+    <Transaction>2020/07/14 17:04:23.000.981,=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.pas</Transaction>
+    <Transaction>2020/07/14 17:04:28.000.016,D:\Codigo\XE_10_Projects\delphiProjects\lerJsonToExcel\NeoEcommerceService.Model.Connections.Interfaces.pas=D:\Codigo\XE_10_Projects\delphiProjects\Unit1.pas</Transaction>
+    <Transaction>2020/07/14 17:16:37.000.203,D:\Codigo\XE_10_Projects\delphiProjects\lerJsonToExcel\jsonToCSV.dproj=D:\Codigo\XE_10_Projects\delphiProjects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

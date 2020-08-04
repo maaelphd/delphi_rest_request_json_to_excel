@@ -1,0 +1,242 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 651
+  ClientWidth = 516
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 400.000000000000000000
+    Position.Y = 621.000000000000000000
+    TabOrder = 0
+    Text = 'Converter'
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 153.000000000000000000
+    Position.Y = 116.000000000000000000
+    Size.Width = 304.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 45.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 441.000000000000000000
+    Size.Height = 465.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 437.000000000000000000
+    Viewport.Height = 461.000000000000000000
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 85.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ColorButton1: TColorButton
+    Color = claBlack
+    Position.X = 435.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 43.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    OnClick = ColorButton1Click
+  end
+  object Label1: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 117.000000000000000000
+    Text = 'Arquivo JSON Origem'
+    Visible = False
+    TabOrder = 14
+  end
+  object Label2: TLabel
+    Position.X = 6.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 72.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'CSV Destino'
+    TabOrder = 8
+  end
+  object ColorButton2: TColorButton
+    Color = claBlack
+    Position.X = 414.000000000000000000
+    Position.Y = 117.000000000000000000
+    Size.Width = 43.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Visible = False
+    OnClick = ColorButton2Click
+  end
+  object edtUrl: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 20
+    Text = 'https://api.com/api/v2/users.json?page=1&role=agent&active=true'
+    Position.X = 85.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtUserName: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 21
+    Position.X = 85.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtPassword: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 22
+    Password = True
+    Position.X = 85.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label3: TLabel
+    Position.X = 37.000000000000000000
+    Position.Y = 13.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'URL:'
+    TabOrder = 13
+  end
+  object Label4: TLabel
+    Position.X = 37.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'SENHA:'
+    TabOrder = 12
+  end
+  object Label5: TLabel
+    Position.X = 37.000000000000000000
+    Position.Y = 37.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'EMAIL:'
+    TabOrder = 9
+  end
+  object Button2: TButton
+    Position.X = 398.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 23
+    Text = 'Requisitar'
+    OnClick = Button2Click
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.csv'
+    InitialDir = 'C:\'
+    Left = 309
+    Top = 603
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '.json'
+    InitialDir = 'C:\'
+    Left = 250
+    Top = 603
+  end
+  object edtNumPages: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 32
+    MaxLength = 2
+    Position.X = 314.000000000000000000
+    Position.Y = 84.000000000000000000
+    Size.Width = 68.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label6: TLabel
+    Position.X = 25.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 96.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'PAGINA INICIAL:'
+    TabOrder = 11
+  end
+  object Label7: TLabel
+    Position.X = 206.000000000000000000
+    Position.Y = 86.000000000000000000
+    Size.Width = 96.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'PAGINA INICIAL:'
+    TabOrder = 10
+  end
+  object edtPagInicial: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 31
+    MaxLength = 2
+    Text = '1'
+    Position.X = 122.000000000000000000
+    Position.Y = 84.000000000000000000
+    Size.Width = 68.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object FDataSet: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    Left = 368
+    Top = 603
+  end
+  object RESTClient2: TRESTClient
+    Authenticator = HTTPBasicAuthenticator1
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    BaseURL = 
+      'https://nextelfull.zendesk.com/api/v2/users.json?role=admin&acti' +
+      've=true'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 192
+    Top = 603
+  end
+  object RESTRequest2: TRESTRequest
+    Client = RESTClient2
+    Params = <>
+    Response = RESTResponse2
+    SynchronizedEvents = False
+    Left = 133
+    Top = 603
+  end
+  object RESTResponse2: TRESTResponse
+    ContentType = 'application/json'
+    Left = 74
+    Top = 603
+  end
+  object HTTPBasicAuthenticator1: THTTPBasicAuthenticator
+    Username = 'fabiano.batista@nextel.com.br'
+    Password = 'Fabiano2020'
+    Left = 16
+    Top = 603
+  end
+end
